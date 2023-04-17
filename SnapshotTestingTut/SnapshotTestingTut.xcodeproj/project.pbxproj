@@ -19,6 +19,7 @@
 		DE09556629ED46F10026FE36 /* SnapshotTestingTutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09556529ED46F10026FE36 /* SnapshotTestingTutTests.swift */; };
 		DE09557029ED46F10026FE36 /* SnapshotTestingTutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09556F29ED46F10026FE36 /* SnapshotTestingTutUITests.swift */; };
 		DE09557229ED46F10026FE36 /* SnapshotTestingTutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09557129ED46F10026FE36 /* SnapshotTestingTutUITestsLaunchTests.swift */; };
+		DE09557F29ED4A4B0026FE36 /* viewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09557E29ED4A4B0026FE36 /* viewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DE09556B29ED46F10026FE36 /* SnapshotTestingTutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTestingTutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE09556F29ED46F10026FE36 /* SnapshotTestingTutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingTutUITests.swift; sourceTree = "<group>"; };
 		DE09557129ED46F10026FE36 /* SnapshotTestingTutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestingTutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE09557E29ED4A4B0026FE36 /* viewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,6 @@
 				9CD4371C403A6928D06C0169 /* Pods-SnapshotTestingTutTests.debug.xcconfig */,
 				5FBAA9AC69F48F85057B5AB3 /* Pods-SnapshotTestingTutTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				DE09556529ED46F10026FE36 /* SnapshotTestingTutTests.swift */,
+				DE09557E29ED4A4B0026FE36 /* viewControllerTest.swift */,
 			);
 			path = SnapshotTestingTutTests;
 			sourceTree = "<group>";
@@ -399,6 +401,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE09557F29ED4A4B0026FE36 /* viewControllerTest.swift in Sources */,
 				DE09556629ED46F10026FE36 /* SnapshotTestingTutTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
